@@ -2,6 +2,8 @@ import { FC, useState } from "react";
 import scss from "./TodoForm.module.scss";
 interface TodoInputProps {
 	addTodo: (text: string) => void;
+	toggleAllTodo: (id: number) => void;
+	deleteAllTodos: (id: number) => void;
 }
 
 const TodoForm: FC<TodoInputProps> = ({
