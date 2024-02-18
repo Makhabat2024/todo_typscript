@@ -1,0 +1,33 @@
+.sectionTodoList {
+	padding-block: 40px;
+	padding-inline: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+	.contentForm {
+		width: 100%;
+		background-color: #504747;
+		padding-block: 40px;
+		padding-inline: 40px;
+		display: flex;
+		justify-content: center;
+
+		align-items: center;
+	}
+
+	.todolist {
+		width: 100%;
+
+		background-color: #504747;
+		padding-block: 40px;
+		padding-inline: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+}

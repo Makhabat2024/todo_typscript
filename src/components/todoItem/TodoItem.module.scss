@@ -1,0 +1,31 @@
+.todoItem {
+	// width: 500px;
+	width: 70%;
+	padding: 10px 20px;
+	background-color: rgb(110, 114, 114);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	span {
+		line-break: anywhere;
+		font-weight: bold;
+	}
+	.buttons {
+		display: flex;
+		gap: 10px;
+		input {
+			width: 20px;
+		}
+		button {
+			background-color: transparent;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			border: 2px solid #f2e5e5;
+			border-radius: 10px;
+			padding: 5px 10px;
+			font-weight: bold;
+		}
+	}
+}
