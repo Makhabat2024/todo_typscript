@@ -66,7 +66,9 @@ const Todolist: FC = () => {
 
 		try {
 			await axios.patch(`${url}/${id}`, {
-				completed: updateTodo.find((todo) => todo._id === id)?.completed,
+				completed: updateTodo.find(
+					(todo) => todo._id === Number(id) || todo._id === undefined
+				)?.completed,
 			});
 		} catch (error) {
 			console.error(error);
